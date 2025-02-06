@@ -1,0 +1,38 @@
+using System;
+
+namespace atv5_2
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.Write("Digite um número inteiro: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Digite um número inteiro: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Digite um número inteiro: ");
+        int num3 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Digite um número inteiro: ");
+        int num4 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Digite um número inteiro: ");
+        int num5 = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine(" soma dos numeros:", num1, num2, num3, num4, num5);
+        
+        int soma = num1 +num2 + num3 + num4 + num5;
+     
+    
+            Console.WriteLine(" o resultado da soma e: " + soma);
+           
+        
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
