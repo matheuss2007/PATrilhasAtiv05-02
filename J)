@@ -1,0 +1,41 @@
+using System;
+
+namespace kgukjt
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+        Console.WriteLine("escolha um tamanho dentre esses:");
+        Console.WriteLine("1 - P");
+        Console.WriteLine("2 - M");
+        Console.WriteLine("3 - G");
+        
+        char tamanho = Char.ToUpper(Console.ReadKey().KeyChar);
+
+        
+        switch (tamanho){
+        
+                case 'P':
+                Console.WriteLine("\nPreço da camiseta tamanho P: R$ 29,99");
+                break;
+                case 'M':
+                Console.WriteLine("\nPreço da camiseta tamanho M: R$ 39,99");
+                break;
+                case 'G':
+                Console.WriteLine("\nPreço da camiseta tamanho G: R$ 49,99");
+                break;
+                default:
+                Console.WriteLine("\nOpção inválida. Escolha entre P, M ou G.");
+                break;
+        
+        
+        }
+
+      
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
