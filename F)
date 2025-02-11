@@ -1,7 +1,8 @@
 using System;
 using System.Security.Cryptography;
 
-class Program
+namespace atv5-2
+class Program 
 {
     static void Main()
     {
